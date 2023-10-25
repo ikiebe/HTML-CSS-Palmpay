@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&family=Overpass:wght@200&family=Roboto:ital@0;1&display=swap');
+
+body{
+    background-color: rgb(220, 225, 230);
+}
+
+.container{
+    height: fit-content;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__icon{
+    width: 50px;
+    height: 50px;
+}
+
+.profile{
+    border: 1px solid black;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.balance__pane{
+    background-color: rgb(147, 116, 176);
+}
+
+h1{
+    font-family: lato;}
+
+h2{
+    font-family: lato;
+}
+
+.verif{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+}
+
+.transfer_pane{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.transfer_icons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+}
+
+.ico{
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 100px;
+}
+
+td {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .services{
+    padding: 0px 30px 0px 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+.service__icon{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar{
+    border-top: 2px solid rgb(225, 220, 220);
+    border-left: 2px solid rgb(225, 220, 220);
+    border-right: 2px solid rgb(225, 220, 220);
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.navbar__icon{
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px 0px 20px;
+}
